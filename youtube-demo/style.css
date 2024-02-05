@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    padding: 0 16px;
+}
+.logo > img {
+    width: 110px;
+    margin-left: 10px;
+}
+.logo {
+    display: flex;
+    margin: 0;
+    align-items: center;
+
+}
+.searchbar {
+    display: flex;
+}
+
+.search {
+    display: flex; 
+    border: 1px solid #cccccc;
+    width: 640px;
+}
+
+.search input {
+    border: none;
+    width: 90%;
+}
+
+.search button {
+    border: none;
+    border-left: 1px solid #cccccc;
+    width: 10%;
+}

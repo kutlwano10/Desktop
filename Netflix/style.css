@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,&family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.banner-wrap {
+    background-image: url(./assets/ZA-en-20230925-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border-bottom: 10px solid #222222;
+    position: relative;
+    z-index: 1;
+
+    
+}.get-started-form {
+    height: 70px;
+    display: flex;
+}
+
+.get-started-form input{
+    height: 60px;
+    width: 450px;
+    padding-left: 10px;
+    height: 100%;
+}
+
+.get-started-form button {
+    background-color: red;
+    color: #fff;
+    height: 100%;
+    font-size: 1.425rem;
+    border: none;
+    min-height: 60px;
+    padding: 0 26px;
+    border-left: 1px solid;
+}
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    opacity: 60%;
+    top: 0;
+
+}
+.navbar {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    margin: 0 45px;
+    padding-top: 45px;
+}
+.navbar > img {
+    height: 32px;
+}
+
+.navbar > a {
+    padding: 7px 17px;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+
+
+.banner-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 45px);
+    text-align: center;
+}
+
+.info-container {
+    background: black;
+    color: #fff;
+    display: flex;
+    padding: 70px 45px;
+    border-bottom: 10px solid #222;
+}
+
+.email-form-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 28px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    padding-right: 0.375rem;
+}
+
+.card-title {
+    font-size: 3.125rem;
+    margin-bottom: 0.5px;
+    line-height: 1.1;
+    font-weight: 600;
+
+}
+.card-subtitle {
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    
+    
+}
+.tv-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tv-container img {
+    z-index: 1;
+}
+.tv-container  video{
+    position: absolute;
+    
+
+}
+
+/* foooter styles */
+.footer {
+    background-color: rgb(13, 13, 14); 
+}
+.footer-items {
+    margin: 0 47.5px;
+    padding: 70px 45px;
+}
+.footer ul li, .questions-title {
+    color: #999;
+}
+.footer-links li {
+    font-size: 14px;
+    
+}
+.footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+.questions-title:hover {
+    text-decoration: underline;
+}
+.footer-top {
+    margin-bottom: 38px;
+}
+.footer-links {
+    list-style-type: none;
+    columns: 4;
+    padding: 0;
+    
+}
+.language {
+    height: 53px;
+    width: 142px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #999;
+    padding: 0 10px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.language select {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #000;
+    appearance: none;
+    background-color: #000;
+    color: #999;
+    background: url(./assets/dropDown.png) no-repeat 100%;
+}
